@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /* display: inline-block; */
+            width: 150px;
+            height: 130px;
+            border: 2px solid #703943;
+            background-color: beige;
+        }
+        #n3:hover{opacity: 0.6;}
+        .sub{
+            background-color: darkgray;
+            position: relative;
+            top:10px;
+            left: 30px; 
+        }
+        #fix{
+            position: fixed;
+            /* position: absolute; */
+            bottom: 100;
+            right: 200;
+        }
+        #float{
+            /* position: fixed; */
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div>DIV1</div>
+    <div class="sub">DIV2</div>
+    <div id="n3">DIV3</div>
+    <div class="sub">DIV4</div>
+    <div>DIV5</div>
+    <div id="fix">DIV6</div>
+    <div id="float">
+        <img src="" width="200px" style="float:left;" alt="">DIV7</div>
+</body>
+</html>
